@@ -26,13 +26,13 @@ h1 {
   width: 100%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   h1 {
-    font: 400 2.5em "Rubik", sans-serif;
+    font: 400 2em "Rubik", sans-serif;
     color: rgba(0, 0, 0, 0.5);
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.2em;
     width: 100%;
   }
 }
@@ -136,4 +136,8 @@ button.learn-more:active::before {
 
 .input-color {
   margin-top: 100px;
+}
+
+.btn-random-2 {
+  margin: 20px;
 }
